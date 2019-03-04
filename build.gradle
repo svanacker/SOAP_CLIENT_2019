@@ -20,6 +20,8 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+    
+    compile group: 'javax.xml.ws', name: 'jaxws-api', version: '2.2.6'
 }
 
 // In this section you declare where to find the dependencies of your project
